@@ -13,6 +13,7 @@ namespace TravelWebSite.Models.Classes
         public DbSet<HakkımızdaTest> hakkımızdaTests  { get; set; }
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<Satıslar> satıslars { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
 
     }
 }
