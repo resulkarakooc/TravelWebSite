@@ -11,7 +11,7 @@ namespace TravelWebSite.Models.Classes
         [Key]
         public int SatısID { get; set; }
         public Users UserID { get; set; }
-        public Urunler urunID { get; set; }
+        public virtual Urunler urunID { get; set; }
         public int Adet { get; set; }
         public int totalTutar { get; set; }
     }

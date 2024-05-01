@@ -181,6 +181,7 @@
     <Content Include="web\css\tiny-slider.css" />
     <Content Include="web\favicon.png" />
     <Content Include="web\images\bag.svg" />
+    <Content Include="web\images\blog-writer.png" />
     <Content Include="web\images\bowl-2.png" />
     <Content Include="web\images\bowl-3.png" />
     <Content Include="web\images\cart.svg" />
@@ -199,6 +200,7 @@
     <Content Include="web\images\person_2.jpg" />
     <Content Include="web\images\person_3.jpg" />
     <Content Include="web\images\person_4.jpg" />
+    <Content Include="web\images\pngegg.png" />
     <Content Include="web\images\post-1.jpg" />
     <Content Include="web\images\post-2.jpg" />
     <Content Include="web\images\post-3.jpg" />
