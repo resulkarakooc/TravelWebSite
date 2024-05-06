@@ -15,5 +15,6 @@ namespace TravelWebSite.Models.Classes
         public DbSet<Satıslar> satıslars { get; set; }
         public DbSet<Blog> Blogs { get; set; }
 
+        public DbSet<comments> commentss { get; set; }
     }
 }

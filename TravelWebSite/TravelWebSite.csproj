@@ -137,6 +137,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Classes\Blog.cs" />
+    <Compile Include="Models\Classes\comments.cs" />
     <Compile Include="Models\Classes\Contact.cs" />
     <Compile Include="Models\Classes\Context.cs" />
     <Compile Include="Models\Classes\HakkımızdaTest.cs" />
@@ -171,6 +172,25 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="webb\about.html" />
+    <Content Include="webb\contact.html" />
+    <Content Include="webb\css\bootstrap.css" />
+    <Content Include="webb\css\style.css" />
+    <Content Include="webb\images\avatar.png" />
+    <Content Include="webb\images\icon3.png" />
+    <Content Include="webb\images\logo.jpg" />
+    <Content Include="webb\images\man.jpg" />
+    <Content Include="webb\images\more.png" />
+    <Content Include="webb\images\post1.jpg" />
+    <Content Include="webb\images\post2.jpg" />
+    <Content Include="webb\images\post3.jpg" />
+    <Content Include="webb\images\search.png" />
+    <Content Include="webb\index.html" />
+    <Content Include="webb\js\easing.js" />
+    <Content Include="webb\js\jquery.min.js" />
+    <Content Include="webb\js\move-top.js" />
+    <Content Include="webb\single.html" />
+    <Content Include="webb\w3layouts-License.txt" />
     <Content Include="web\about.html" />
     <Content Include="web\blog.html" />
     <Content Include="web\cart.html" />
@@ -257,6 +277,7 @@
     <Content Include="Views\Buy\Index.cshtml" />
     <Content Include="Views\Buy\Odeme.cshtml" />
     <Content Include="Views\Blog\Index.cshtml" />
+    <Content Include="Views\Blog\blog.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
