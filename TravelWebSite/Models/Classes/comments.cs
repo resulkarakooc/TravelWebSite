@@ -13,7 +13,7 @@ namespace TravelWebSite.Models.Classes
         public string Name { get; set; }
         public string mail { get; set; }
         public string comment { get; set; }
-        public int Blogİd { get; set; }
+        public int Blogid { get; set; }
         public virtual Blog Blog { get; set; }
     }
 }
