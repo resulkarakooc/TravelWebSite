@@ -14,18 +14,18 @@ namespace TravelWebSite.Controllers
         Context c = new Context();
         public ActionResult Index()
         {
-            var degerler = c.Blogs.ToList();
-            return View(degerler);
+           
+            return View();
         }
 
-        BlogYorum by = new BlogYorum();
+       
         public ActionResult blog(int id)
         {
             //var blogcek = c.Blogs.Where(x =>x.ID == id).ToList();
 
-            by.Deger1 = c.Blogs.Where( x => x.ID == id).ToList();
             
-            return View(by);
+            
+            return View();
         }
     }
     
